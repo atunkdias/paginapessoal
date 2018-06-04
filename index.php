@@ -22,20 +22,11 @@
 <body>
     <!-- Header Section -->
     <section class="banner" role="banner">
-        <!-- Navigation Section -->
-        <header id="header">
-            <div class="header-content clearfix"> <a class="logo" href="#">Arthur Dias</a>
-                <nav class="navigation" role="navigation">
-                    <ul class="primary-nav">
-                        <li><a href="#introduction"><b>Sobre mim</b></a></li>
-                        <li><a href="#works"><b>Últimos Trabalhos e coisas que eu gosto</b></a></li>
-                        <li><a href="#contact"><b>Contate-me</b></a></li>
-                    </ul>
-                </nav>
-                <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-        </header>
-        <!-- Navigation Section -->
-        <!-- Banner Section -->
+       
+        <?php 
+            require 'navbar.php';
+?>
+        
         <div class="container">
             <div class="col-md-7 banner-inner-wrapper">
                 <div class="banner-text"><B>
